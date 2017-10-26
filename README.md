@@ -12,10 +12,12 @@ Official releases of this add-on are available at Vaadin Directory. For Maven in
 
 ## Building and running demo
 
+```
 git clone git@github.com:1dir1/vaadin-gravatars.git
 mvn clean install
 cd gravatars-demo
 mvn jetty:run
+```
 
 To see the demo, navigate to http://localhost:8080/
 
@@ -48,24 +50,26 @@ Contributions are welcome, but there are no guarantees that they are accepted as
 - Send a pull request for the original project
 - Comment on the original issue that you have implemented a fix for it
 
-## License & Author
+## License
 
 Add-on is distributed under Apache License 2.0. For license terms, see LICENSE.txt.
-
-Gravatars add-on is written by Can Bican <can@bican.net>
 
 # Developer Guide
 
 ## Getting started
 
-See the demo at gravatars-demo/src/main/java/net/birdirbir/vaadin/gravatars/demo/GravatarDemoUI.java
+See the demo at [gravatars-demo/src/main/java/net/birdirbir/vaadin/gravatars/demo/GravatarDemoUI.java](https://github.com/1dir1/vaadin-gravatars/blob/master/gravatars-demo/src/main/java/net/birdirbir/vaadin/gravatars/demo/GravatarDemoUI.java)
 
 ## Features
 
 ### Gravatar URL
 
+```java
 resource = GravatarResource.builder().build().get("mail.example.com");
+```
 
 ### Gravatar Link to Profile Page
 
+```java
 resource = GravatarResource.builder().build().getProfile("mail.example.com");
+```
