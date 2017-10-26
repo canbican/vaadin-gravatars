@@ -1,4 +1,4 @@
-# MyComponent Add-on for Vaadin 8
+# Gravatars Add-on for Vaadin 8
 
 Gravatars is a UI component add-on for Vaadin 8.
 
