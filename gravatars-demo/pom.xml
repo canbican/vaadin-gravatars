@@ -65,6 +65,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>eu.hurion.vaadin.heroku</groupId>
+            <artifactId>vaadin-for-heroku</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>23.2-jre</version>
